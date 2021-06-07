@@ -1,0 +1,7 @@
+var http = require('http');
+http.createServer(function (req, res) {
+res.write("Hello from Pawan");
+res.write("Hello from Node Js");
+res.end();
+res.end();
+}).listen(4000);
